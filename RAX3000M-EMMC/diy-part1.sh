@@ -16,35 +16,22 @@
 #sed -i 's|/bin/login|/bin/login -f root|g' feeds/packages/utils/ttyd/files/ttyd.config
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#git clone https://github.com/messense/aliyundrive-webdav package/messense
-
-# 应用过滤
-#git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-
-# 京东签到
-#git clone https://github.com/noiver/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
-
-# 商店
-#git clone https://github.com/linkease/istore-ui package/istore-ui
-#git clone https://github.com/linkease/istore package/istore
-
-# 网易云解灰（天灵）
-#git clone https://github.com/UnblockNeteaseMusic/server package/server
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # 简单MESH
-#git clone https://github.com/ntlf9t/luci-app-easymesh package/luci-app-easymesh
+git clone https://github.com/ntlf9t/luci-app-easymesh package/luci-app-easymesh
 
-# 集客AC控制器
-#git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
+# 商店
+git clone https://github.com/linkease/istore-ui package/istore-ui
+git clone https://github.com/linkease/istore package/istore
 
-# AdguardHome-app
-#git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
+# 京东签到
+git clone https://github.com/noiver/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
 
 # MosDns
-#git clone https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
+git clone https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
 # alist文件列表
-#git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
+git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
